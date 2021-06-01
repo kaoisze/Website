@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bussiness website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Itim", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+   <a href="index.html">Home</a>
+    <a href="category.html">Categories</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="settings.html">Settings</a>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+<div>
+      <span style="float:right"><p>Rating on playstore: 4.6 &#11088;</p></span>
+      
+    </div>
+    <br>
+
+<center>
+  <h1>Chess</h1>
+  <hr>
+  
+  <h3>Information</h3>
+  <p>Chess as many know It, Is a game about checkmating the king. It can be played digitaly, or In real life. The version I will be basing this part on will be <a href="https://www.chess.com/" target="_blank">chess.com</a></p>
+  <br>
+  <h3>How to play</h3>
+  <p>If you dont know how to play It, I will show you how to play, though It is better to learn on chess.com. When starting, you should know that you control all of the peices on the board. Another thing is that chess is a turn based game, where each player takes turns in playing amd can only move one peice per turn. The last thing to know is that you lose if your king gets checkmated. The basics that apply to all of the peices is that when the peices attack each other they take their coordinates on the board. Another is if the peices move a certain way, such as how a pawn can only go foward(not true, but use the example) and if something is directly in front of the pawn, then that peice can no longer move.</p>
+</center>
+<br>
+<h4>How the chess board looks like:</h4>
+<img height="500" width="600" src="https://betacssjs.chesscomfiles.com/bundles/web/images/offline-play/standardboard.png">
+
+<h4>Pawn</h4>
+<img height="225" width="300" src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Chess_piece_-_White_pawn.JPG">
+
+<p>We will first take a look at the fodder of chess, the pawn. The pawn is the second row of peices that look the same. The peice at first can move two or one square(s) up, only If you have not moved that pawn yet. The pawn can only attack diagonally, and a special thing that the pawn can do is when it get all the way to the ooposite side of the board, it can change into any peice.(except the king)</p>
+
+<h4>rook</h4>
+<img height="225" width="300" src="https://img2.cgtrader.com/items/2840685/e6d4abe83b/chess-piece-rook-3d-model-obj.jpg">
+
+<p>The rook is the peice on the board that looks like a castle. It  moves horizontally, or vertically and that Is the way of how it attack. If there is a peice inbetween the destination and the rook, then the rook can not get past it, unless that peice is not there anymore</p>
+
+
+<h4>knight</h4>
+<img height="225" width="300" src="https://cdn.shopify.com/s/files/1/2209/1363/products/additional_megachess-21_046d38a8-e401-4ae9-8d25-c451027acbce_1024x1024.png?v=1535654491">
+<p>The knight is a very unique peice. The knight moves in a L shape pattern, which is two squares either horizontally, or vertically and then you will have to move it one more squre either up, down, right, or left.</p>
+<p>Ex:</p>
+<img height="225" width="300" src="https://www.mark-weeks.com/aboutcom/images/ble1321n.gif">
+
+<h4>bishop</h4>
+<img height="225" width="300" src="https://i.pinimg.com/736x/e4/aa/68/e4aa68750c6eda0cc8f2b6df13d59311.jpg">
+<p>The bishop can only move diagonally, and the that is how it attacks also.</p>
+
+<h4>queen</h4>
+<img height="225" width="300" src="https://upload.wikimedia.org/wikipedia/commons/a/af/Chess_piece_-_White_queen.jpg">
+<p>The way the queen moves Is combining how tohe rook and bishop move. It is a very important peice, which is why you should use it carefully.</p>
+
+<h4>king</h4>
+<img height="225" width="300" src="https://i.pinimg.com/originals/d8/7a/8d/d87a8dbedddb202c1c3a8e892010fa3b.jpg">
+<p>The king is the peice that you are trying to protect in this game. It can only move one squre at a time, and can attack anything, if it is one square away from it. You cannot risk your king getting killed, so you need to make sure it stays safe, but if your king has no more room to run or get protected, and you are going to lose it the next turn, that is called a checkmate, and you lose the game.</p>
+<img height="225" width="300" src="https://lh4.googleusercontent.com/KgirmSGG2M2BlMxmKCL_4QSwxxQ0esATLb339yz6jwCpxeSmfEGAOwO2YYsKtDkSjByEOk2wF7cUC2L-xXFFFWl9B5Z7S7NqJjFRrj0UowgJoLfJPQLgHkvDf96j6kgqVRV7wEml">
+<br>
+<p>Those are the basic rules to chess, though If you need a more thorugh explanation, <a href="https://www.chess.com/" target="_blank">click here.</a> If you like strategy games, then this Is a good one to play.</p>
+<script src="script.js"></script>
+
+
+</body>
+</html>

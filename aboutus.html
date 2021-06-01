@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bussiness website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Itim", sans-serif;
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+ #A {
+            text-decoration: none; color:blue;
+        }
+        
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+   <a href="category.html">Categories</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="settings.html">Settings</a>
+  
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<style>
+  h3 {
+    color:red;
+  }
+  p {
+    color:grey;
+    font-size:20px;
+  }
+  h2 {
+    font-size:30px;
+  }
+</style>
+<h1>About Us</h1>
+<hr>
+<h3>Information about site</h3>
+<p>This site is meant to give a useful/basic information as an introduction about games, such as Apex Legends and many others. The information on these sites range from useful tips and guides for games, but the bare minimum will have information regarding the games, such as what the game is about, ratings, and what type of person would want to play this game.</p>
+
+<h3>Person that made the site</h3>
+<p>This site is run and operated by Kai, a current highschool student.</p>
+<br>
+
+<h2>Contact</h2>
+<p>If you have any suggestion on how to improve the site, then contact me at kaixingsze@gmail.com. :)</p>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

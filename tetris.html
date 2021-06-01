@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Bussiness website</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Itim", sans-serif;
+  
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+ #A {
+            text-decoration: none; color:blue;
+        }
+        
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+</style>
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="index.html">Home</a>
+   <a href="category.html">Categories</a>
+  <a href="aboutus.html">About Us</a>
+  <a href="settings.html">Settings</a>
+  
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+<div>
+      <span style="float:right">Rating By Steven Petite from IGN
+                : 8.5/10 &#11088;</span>
+      
+    </div>
+    <br>
+    
+<center>
+  <h1>Tetris</h1>
+  <hr>
+  <h3>What Is Tetris</h3>
+  <p>Tetris is a simple game where you stack blocks or the official name, Tetriminoes that come in seven shapes. The version of the game I will be basing It off of will be <a href="https://www.nintendo.com/games/detail/tetris-99-switch/">Tetris 99</a>, which you can play for free on the nintendo switch.</p>
+  <img height="225" width="300" src="https://static.wikia.nocookie.net/tetrisconcept/images/c/ca/Tetromino_image.png/revision/latest?cb=20090706171943">
+  <br>
+  
+  <h3>How to play Tetris 99</h3>
+  <p>You are put in a battle royale version of Tetris, which you can attack players by using the right joystick on the nintendo switch. you move the peices by using the D-pad. To rotate the blocks, you have to press A, and If you want to hold the blocks, you press R on the switch.</p>
+  <br>
+  
+  <p>If you like games that require quick thinking and puzzle solving, then this is your game.</p>
+  
+  
+  </center>
+<script src="script.js"></script>
+
+</body>
+</html>
